@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+.app {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.header {
+  font-size: 100px;
+  text-align: center;
+  color: rgba(175, 47, 47, 0.15);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
